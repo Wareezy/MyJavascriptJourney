@@ -31,3 +31,48 @@ console.log('the remainder is ' + remainder)
 // of the division in the following format: “num1 / num2 = x remainder y.” HINT: Backticks
 console.log(`${num1} / ${num2} = ${Math.floor(num1 / num2)} remainder ${num1 % num2}`);
 //task1
+
+
+
+
+
+// task 2
+
+// 1. Define the following data types with your own contents[ 'integer', 'decimal', 'string', 'array'(minimum: 3 items), 'Object'(minimum: 4 values)]
+let integer=10;
+let string="Warren"
+let decimal=0.5
+let array=[1,2,3,4,5]
+let person={
+    firstname:'Warren',
+    lastname:'Doe',
+    age:30,
+    email:'warrenjaftha16@gmail.com'
+
+}
+
+// 2. Once you’ve created the variables, display them to the console
+
+console.log("integer=" +" "+ integer +" "+"String="+" "+ string +" "+"Decimal="+" "+decimal+" "+"Array="+" "+ array+ " "+"Object"+" " + "firstname="+" "+person.firstname +" "+ "lastname="+" "+person.lastname+" "+"Age="+" "+person.age+" "+ "Email="+ " "+person.email)
+
+// 3. Use the ‘typeof’ function to check each variable
+console.log(typeof integer)
+console.log(typeof string)
+console.log(typeof decimal)
+console.log(typeof array)
+console.log(typeof person)
+
+
+// 4. Create an array with numbers and strings. Comment what data type you expect
+let array_2=[2,4,5,"warren","jaftha",4,5]
+console.log(typeof array_2)
+
+
+// 5. Create a null variable and an undefined variable
+let nullVariable=null
+let underfinedVariable;
+
+
+//task2
+
+
