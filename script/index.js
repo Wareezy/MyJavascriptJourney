@@ -76,3 +76,84 @@ let underfinedVariable;
 //task2
 
 
+//task3
+
+//  1.  Create 3 functions to convert R1000 into dollars, euros and pounds. Take function naming into consideration!
+let ammountRand=1000;
+let randToDollar=18.45
+let randToEuro=19.70
+let randToPounds=22.63
+
+
+dollarConversion=ammountRand/randToDollar
+euroConversion=ammountRand/randToEuro
+poundConversion=ammountRand/randToPounds
+
+console.log("R1000 converted to dollars="+" "+dollarConversion)
+console.log("R1000 converted to euros="+" "+euroConversion)
+console.log("R1000 converted to pounds="+" "+poundConversion)
+
+//  2.  Create a function that takes a value and calculates the amount entered including VAT (15%), amount entered should be R400.
+//      Then display the message in the console, "The amount after tax is ...".
+let ammountEntered=400
+let vat=0.15
+taxcal=vat*ammountEntered
+taxfinal=taxcal+ammountEntered
+console.log("the ammount after tax is"+" "+taxfinal)
+
+
+//  3.  Declare 3 variables 1stNum, 2ndNum, 3rdNum and assign values of 8, 20 and 14 respectfully. Now write a function that compares “num1” and “num2” and 
+//      displays the larger value.
+let Num1=8
+let Num2=20
+let Num3=14
+
+if(Num1>=Num2){
+    console.log(Num1)
+
+}
+else if(Num2>=Num1)
+{
+    console.log(Num2)
+}
+
+
+//  4.  Write a function that determines whether “num1” is odd or even and displays the
+//      result. (Tip: remember the modulus operator %)
+let part4=Num1%2
+console.log(part4)
+let even="number is even"
+if(part4==0)
+{
+console.log(even)
+}
+else if (part4>0)
+{
+    console.log('number is odd')
+}
+
+//  5.  Next, write a JavaScript conditional statement to sort the three numbers(1stNum, 2ndNum, 3rdNum) from largest to smallest.
+// let Num1=8
+// let Num2=20
+// let Num3=14
+if (Num1 > Num2 && Num1 > Num3) {
+    if(Num2>Num3)
+    {
+        console.log('Num1='+" "+Num1+" "+'Num2='+" "+Num2+'Num3='+Num3)
+    }else
+    {
+        console.log('Num1='+" "+Num1+" "+'Num3='+" "+Num3+'Num2='+" "+Num2)
+    }
+}
+else if(Num2>Num1 && Num2 >Num3)
+{
+if(Num1>Num3)
+{
+    console.log('Num2='+" "+Num2+" "+'Num1='+" "+Num1+" "+'Num3='+Num3)
+}
+else
+{
+    console.log('Num2='+" "+Num2+" "+'Num3='+" "+Num3+" "+'Num2='+" "+Num1)
+}
+
+}
